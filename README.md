@@ -58,6 +58,10 @@ This tool is designed to validate JSON data files against predefined JSON schema
 
 `python.exe -m pip install --upgrade pip`
 
+### **Docker**
+* If you want to use docker run this and edit the reporting path section to setup the reporting files location:
+`docker run -it --rm -v *reporting*\MRF-Validator-Tool\reports:/app/reports mrf_validator_tool --schema schemas/inn_schema.json --url https://mrf.health.com/health/123456
+`
 ### **License:**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
