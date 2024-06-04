@@ -60,7 +60,7 @@ This tool is designed to validate JSON data files against predefined JSON schema
 
 ### **Docker**
 * If you want to use docker run this and edit the reporting path section to setup the reporting files location:
-`docker run -it --rm -v *reporting*\MRF-Validator-Tool\reports:/app/reports mrf_validator_tool --schema schemas/inn_schema.json --url https://mrf.health.com/health/123456
+`docker run -it --rm -v *reporting*\validator\reports:/app/reports validator_tool --schema schemas/inn_schema.json --url https://mrf.health.com/health/123456
 `
 
 ### **License:**
