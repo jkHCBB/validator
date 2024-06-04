@@ -13,9 +13,7 @@ This tool is designed to validate JSON data files against predefined JSON schema
 
 ### **Installation:**
 
-* Clone this repository to your local machine:
-
-`git clone https://hcbb@dev.azure.com/hcbb/Bluebook/_git/MRF-Validator-Tool`
+* Clone this repository to your local machine
 
 * Install the required dependencies using pip:
 
