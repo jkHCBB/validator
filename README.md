@@ -38,7 +38,7 @@ This tool is designed to validate JSON data files against predefined JSON schema
 
 * Example For an Allowed_Amounts File:
 
-` python url_validator.py --schema schemas/oon_schema.json --url https://mrf.healthcarebluebook.com/luminareHealth/298531`
+` python url_validator.py --schema schemas/oon_schema.json --url https://mrf.healthcare.com/Health/123456`
 
 * Check the generated report in the reports directory for validation results.
 
@@ -50,7 +50,7 @@ This tool is designed to validate JSON data files against predefined JSON schema
 * To change the error limit for the local_file_validator, modify the error_limit variable in the code. 
 * Ex: error_limit = 1000  # Hardcoded error limit
 * To change the error limit or disable it entirely for the url_validator, you can modify the error_limit variable in the code just as above or pass the argument '--no-limit' to the command line script. 
-* Ex: `python url_validator.py --schema schemas/oon_schema.json --url https://mrf.healthcarebluebook.com/luminareHealth/298531 --no-limit` 
+* Ex: `python url_validator.py --schema schemas/oon_schema.json --url https://mrf.healthcare.com/Health/123456 --no-limit` 
 
 ### **Updating**
 
